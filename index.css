@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+}
+.Cell{
+    background-color: blue;
+    color: aqua;
+}
+.Cell1{
+    grid-column: 1/ 5 ;
+}
+.Cell5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.Cell6{
+    grid-column: 1/4;
+}
+.Cell7{
+    grid-column: 1/5;
+}
